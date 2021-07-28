@@ -230,9 +230,6 @@ textarea {
     format("woff");
   font-display: swap;
 }
-.wf-hannari {
-  font-family: "Hannari";
-}
 @charset "UTF-8";
 body {
   overflow-x: hidden;
@@ -2396,77 +2393,6 @@ textarea {
 input[type="radio"],
 input[type="checkbox"] {
   display: none;
-}
-.mwform-radio-field-text {
-  margin-right: 20px;
-  position: relative;
-  padding: 0 0 0 25px;
-}
-.mwform-radio-field {
-  display: block;
-  margin-bottom: 15px;
-}
-td .mwform-radio-field:nth-child(1) {
-  display: block;
-  margin-top: 10px;
-}
-.mwform-checkbox-field {
-  width: 100%;
-  display: inline-block;
-}
-.mwform-checkbox-field-text {
-  margin-right: 20px;
-  position: relative;
-  padding: 0 0 0 25px;
-}
-.mwform-radio-field-text:after,
-.mwform-radio-field-text:before,
-.mwform-checkbox-field-text:after,
-.mwform-checkbox-field-text:before {
-  position: absolute;
-  content: "";
-  display: block;
-  top: 13px;
-}
-.mwform-radio-field-text:after {
-  left: 0;
-  margin-top: -10px;
-  width: 16px;
-  height: 16px;
-  border: 1px solid #ccc;
-  border-radius: 50%;
-}
-.mwform-checkbox-field-text:after {
-  left: 0;
-  margin-top: -10px;
-  width: 16px;
-  height: 16px;
-  border: 1px solid #ccc;
-}
-.mwform-checkbox-field-text:before {
-  left: 3px;
-  margin-top: -7px;
-  width: 12px;
-  height: 12px;
-  background: #8ec31e;
-  opacity: 0;
-}
-.mwform-radio-field-text:before {
-  left: 3px;
-  margin-top: -7px;
-  width: 12px;
-  height: 12px;
-  background: #8ec31e;
-  border-radius: 50%;
-  opacity: 0;
-}
-input[type="radio"]:checked + .mwform-radio-field-text:before,
-input[type="checkbox"]:checked + .mwform-checkbox-field-text:before {
-  opacity: 1;
-}
-.mwform-radio-field-text:hover:after,
-.mwform-checkbox-field-text:hover:after {
-  border-color: #8ec31e;
 }
 @media (max-width: 768px) {
   .contact_box {
