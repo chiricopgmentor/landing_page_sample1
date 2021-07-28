@@ -1,0 +1,39 @@
+:root {
+  --heightHeader: 96px;
+}
+
+@media screen and (max-width: 768px) {
+  :root {
+    --heightHeader: 36px;
+  }
+}
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Noto Serif", serif;
+  font-family: "Noto Serif JP", serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.bl_bgiCarousel {
+  position: absolute;
+  height: 100vh;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+.bl_bgiCarousel_wrapper {
+  position: relative;
+  z-index: -1;
+}
+.bl_bgiCarousel_img {
+  height: 100vh;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}/*# sourceMappingURL=selfStyle.css.map */

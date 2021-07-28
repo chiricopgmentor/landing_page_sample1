@@ -1,47 +1,341 @@
 <!DOCTYPE html>
-<html lang=en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="https://unpkg.com/sanitize.css" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" />
-  <link
-    rel="stylesheet"
-    href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@700&family=Noto+Serif:ital,wght@0,700;1,700&display=swap"
-  />
-  <link
-  rel="stylesheet"
-  type="text/css"
-  href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
-/>
-<link rel="stylesheet" href="./css/style.css" />
-  <title>Landing page sample site</title>
-</head>
-<body>
-  <header></header>
-  <main>
-    <div class="bl_bgiCarousel_wrapper">
-      <ul class="bl_bgiCarousel js_bgiCarousel">
-        <li>
-          <img class="bl_bgiCarousel_img" src="./img/fv-bgi_01@2x.jpg" />
-        </li>
-        <li>
-          <img class="bl_bgiCarousel_img" src="./img/fv-bgi_02@2x.jpg" />
-        </li>
-        <li>
-          <img class="bl_bgiCarousel_img" src="./img/fv-bgi_03@2x.jpg" />
-        </li>
-      </ul>
+<html>
+  <head>
+    <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/viewport-extra@1.0.2/dist/viewport-extra.min.js"></script>
+    <script>
+      new ViewportExtra({ minWidth: 375, maxWidth: 1920 });
+    </script>
+    <link
+      rel="shortcut icon"
+      type="image/vnd.microsoft.icon"
+      href="https://haniwa-bonsai.com/wp-content/themes/haniwa/images/favicon.ico"
+    />
+    <link
+      rel="icon"
+      type="image/vnd.microsoft.icon"
+      href="https://haniwa-bonsai.com/wp-content/themes/haniwa/images/favicon.ico"
+    />
+    <link
+      rel="apple-touch-icon"
+      href="https://haniwa-bonsai.com/wp-content/themes/haniwa/images/icon.png"
+    />
+    <link
+      type="text/css"
+      media="all"
+      href="./css/style.css"
+      rel="stylesheet"
+    />
+    <title>BONSAI and WILD GRASSES & PLANT HANIWA</title>
+    <script>
+      setTimeout(function () {
+        document.getElementsByTagName("html")[0].classList.add("loading-delay");
+      }, 100);
+    </script>
+  </head>
+  <body>
+    <header>
+      <h1>
+        <a
+          href="https://haniwa-bonsai.com//e-export/"
+          title="BONSAI and WILD GRASSES & PLANT HANIWA"
+          >BONSAI and WILD GRASSES & PLANT HANIWA</a
+        >
+      </h1>
+      <a
+        href="https://haniwa-bonsai.com/"
+        title="HANIWA Official Site"
+        class="home"
+        target="_blank"
+        >HANIWA Official Site</a
+      >
+      <div class="header_box">
+        <ul class="language_box">
+          <li>
+            <a class="japanese" href="https://haniwa-bonsai.com//j-export/"></a>
+          </li>
+          <li>
+            <a class="chinese" href="https://haniwa-bonsai.com//c-export/"></a>
+          </li>
+          <li>
+            <a class="english" href="https://haniwa-bonsai.com//e-export/"></a>
+          </li>
+        </ul>
+        <span class="open">開</span>
+        <a
+          href="https://haniwa-bonsai.com/e-export/e-contact/"
+          title="Please contact us."
+          class="contact"
+          target="_blank"
+          ><span>Please contact us.</span></a
+        >
+      </div>
+    </header>
+    <div id="wrap">
+      <main>
+        <div class="mv">
+          <span
+            ><p>Bonsai<br />to the worlds</p>
+            <img
+              src="./img/mv_bonsai.png"
+            />
+          </span>
+        </div>
+        <div class="message">
+          <p class="no_color">
+            Haniwa is proud that we are exporting high quality BONSAI to
+            overseas.
+          </p>
+          <p class="no_color">
+            It's not easy to respond and meet customer country's quarantines and
+            specifications
+          </p>
+          <p class="back_color">
+            But<span
+              >Haniwa has long experience and enough knowledge to carry our
+              BONSAI to you without problems.</span
+            >
+          </p>
+        </div>
+        <div class="quality">
+          <h2>Japan quality</h2>
+          <p class="ttl_sub">3 Japanes Quality</p>
+          <div class="quality_box">
+            <div class="quality01">
+              <div class="pic">
+                <img
+                  src="./img/quality_img_01.jpg"
+                />
+              </div>
+              <div class="txt">
+                <h3>1</h3>
+                <dl>
+                  <dt>Products</dt>
+                  <dd>
+                    <p>
+                      Haniwa is proud of high quality Bonsai which are choosen
+                      from all aver Japan and grewn up in our garden with our
+                      highly experienced staffs. We have many Bonsai including
+                      KUROMATSU, GOYOUMATU.
+                    </p>
+                  </dd>
+                </dl>
+              </div>
+            </div>
+            <span class="quality_item odd"></span>
+          </div>
+          <div class="quality_box">
+            <div class="quality02">
+              <div class="pic">
+                <img
+                  src="./img/quality_img_02.jpg"
+                />
+              </div>
+              <div class="txt">
+                <h3>2</h3>
+                <dl>
+                  <dt>Certification</dt>
+                  <dd>
+                    <p>
+                      Haniwa is able to respond to any countries quarantines
+                      and/or certifications requirements from our long and wide
+                      experience.
+                    </p>
+                  </dd>
+                </dl>
+              </div>
+            </div>
+            <span class="quality_item even"></span>
+          </div>
+          <div class="quality_box">
+            <div class="quality03">
+              <div class="pic">
+                <img
+                  src="./img/quality_img_03.jpg"
+                />
+              </div>
+              <div class="txt">
+                <h3>3</h3>
+                <dl>
+                  <dt>Packaging &amp; Transportation</dt>
+                  <dd>
+                    <p>
+                      Oveseas transportation takes long time so that Haniwa is
+                      careful how to pack and how to transport to keep Bonsai
+                      Quality.
+                    </p>
+                  </dd>
+                </dl>
+              </div>
+            </div>
+            <span class="quality_item quality_item_03"></span>
+          </div>
+        </div>
+        <div class="flow">
+          <div class="top_plane"></div>
+          <h2>Logistics</h2>
+          <ul>
+            <li>
+              <span>Inquiry</span>
+              <p>Please contact us via e-mail.</p>
+            </li>
+            <li>
+              <span>talks and order</span>
+              <p>We are glad to listen your requirements.</p>
+            </li>
+            <li>
+              <span>Export precedures</span>
+              <p>
+                We are glad to make all necessary export procedures and steps.
+              </p>
+            </li>
+            <li>
+              <span>Preperation for Bonsai</span>
+              <p>We prepare BONSAI based on your inquiry.</p>
+            </li>
+            <li>
+              <span>Export precedures</span>
+              <p>
+                Based on customer's requirement, we are able to offer the best
+                logistics by air and sea.
+              </p>
+            </li>
+          </ul>
+          <p class="kome" name="＊">
+            Please understand above shows just only sample case.Final procedures
+            is subject to change by customer's country requirements.
+          </p>
+          <p class="kome" name="＊">
+            Basically we have advanced payment system,however we can talk case
+            by case.
+          </p>
+          <div class="btm_plane"></div>
+        </div>
+        <div class="company">
+          <div class="pic">
+            <img
+              src="./img/company_mv.jpg"
+            />
+          </div>
+          <div class="txt">
+            <h2>Company information</h2>
+            <table>
+              <tr>
+                <th>Address</th>
+                <td>
+                  1047-1 Kizukuri-cho, Tsu-shi, Mie-Prefecture JAPAN　<span
+                    >Zip code; 514-1115</span
+                  >
+                </td>
+              </tr>
+              <tr>
+                <th>TEL</th>
+                <td>+81-59-273-5133</td>
+              </tr>
+              <tr>
+                <th>E-mail</th>
+                <td>
+                  <a
+                    href="mailto:&#104;&#97;&#110;&#105;&#119;&#97;&#64;&#104;&#97;&#110;&#105;&#119;&#97;&#45;&#98;&#111;&#110;&#115;&#97;&#105;&#46;&#99;&#111;&#109;"
+                    >&#104;&#97;&#110;&#105;&#119;&#97;&#64;&#104;&#97;&#110;&#105;&#119;&#97;&#45;&#98;&#111;&#110;&#115;&#97;&#105;&#46;&#99;&#111;&#109;</a
+                  >
+                </td>
+              </tr>
+            </table>
+          </div>
+        </div>
+      </main>
+      <footer>
+        <div class="footer_box">
+          <p>We are glad to export our BONSAI to you.</p>
+          <p>Pleaes contact us via e-mail</p>
+          <a
+            href="https://haniwa-bonsai.com/e-export/e-contact/"
+            title="contact us"
+            class="contact"
+            target="_blank"
+            ><span>contact us here &amp; now</span></a
+          >
+        </div>
+        <p class="copy"></p>
+      </footer>
+      <div id="page_top"><p>PAGE TOP</p></div>
+      <a
+        href="https://haniwa-bonsai.com/"
+        title="HANIWA Official Site"
+        class="home_footer"
+        target="_blank"
+        >HANIWA Official Site</a
+      >
     </div>
-    <!-- /.bl_bgiCarousel_wrapper -->
-  </main>
-  <footer></footer>
-  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-  <script
-    type="text/javascript"
-    src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
-  ></script>
-  <script src="./js/script.js"></script>
-</body>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript">
+      var thisOffset;
+      $(window).on("load", function () {
+        thisOffset =
+          $(".flow li:nth-child(5)").offset().top +
+          $(".flow li:nth-child(5)").outerHeight();
+      });
+
+      $(window).scroll(function () {
+        if ($(window).scrollTop() + $(window).height() > thisOffset) {
+          $(".btm_plane").animate(
+            {
+              right: "-45%",
+              bottom: "-100px",
+            },
+            {
+              duration: 4000,
+            }
+          );
+        } else {
+          // 特定の要素を超えていない
+        }
+      });
+
+      var thisOffset;
+      $(window).on("load", function () {
+        thisOffset =
+          $(".top_plane").offset().top + $(".top_plane").outerHeight();
+      });
+
+      $(window).scroll(function () {
+        if ($(window).scrollTop() + $(window).height() > thisOffset) {
+          $(".top_plane").animate(
+            {
+              left: "45%",
+              top: "30px",
+            },
+            {
+              duration: 4000,
+            }
+          );
+        } else {
+          // 特定の要素を超えていない
+        }
+      });
+    </script>
+    <script type="text/javascript">
+      var sbiajaxurl = "https://haniwa-bonsai.com/wp-admin/admin-ajax.php";
+    </script>
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-137048362-1"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "UA-137048362-1");
+    </script>
+    <script
+      type="text/javascript"
+      defer
+      src="https://haniwa-bonsai.com/wp-content/cache/autoptimize/js/autoptimize_081fb13b4f627b18e7798b1f56bd882b.js"
+    ></script>
+  </body>
 </html>
