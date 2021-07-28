@@ -361,17 +361,17 @@ header {
 }
 .language_box a.japanese,
 .language_box span.japanese {
-  background: url(//haniwa-bonsai.com/wp-content/themes/haniwa/css/../images/export/lang_j.svg)
+  background: url(../img/lang_j.svg)
     center center no-repeat;
 }
 .language_box a.chinese,
 .language_box span.chinese {
-  background: url(//haniwa-bonsai.com/wp-content/themes/haniwa/css/../images/export/lang_c.svg)
+  background: url(../img/lang_c.svg)
     center center no-repeat;
 }
 .language_box a.english,
 .language_box span.english {
-  background: url(//haniwa-bonsai.com/wp-content/themes/haniwa/css/../images/export/lang_e.svg)
+  background: url(../img/lang_e.svg)
     center center no-repeat;
 }
 .language_box a:hover,
@@ -559,20 +559,20 @@ header {
   }
   .language_box a.japanese,
   .language_box span.japanese {
-    background: url(//haniwa-bonsai.com/wp-content/themes/haniwa/css/../images/export/lang_j.svg)
+    background: url(../img/lang_j.svg)
       center center no-repeat;
     background-size: 55px;
     position: relative;
   }
   .language_box a.chinese,
   .language_box span.chinese {
-    background: url(//haniwa-bonsai.com/wp-content/themes/haniwa/css/../images/export/lang_c.svg)
+    background: url(../img/lang_c.svg)
       center center no-repeat;
     background-size: 55px;
   }
   .language_box a.english,
   .language_box span.english {
-    background: url(//haniwa-bonsai.com/wp-content/themes/haniwa/css/../images/export/lang_e.svg)
+    background: url(../img/lang_e.svg)
       center center no-repeat;
     background-size: 55px;
   }
@@ -947,7 +947,7 @@ main {
     padding: 0 110px 40px 0;
   }
   .quality02 h3 {
-    background: url(//haniwa-bonsai.com/wp-content/themes/haniwa/css/../images/export/quality_h3-02.svg)
+    background: url(../img/quality_h3-02.svg)
       center top no-repeat;
     margin: -65px 0 50px;
   }
@@ -2538,7 +2538,7 @@ h1 a {
   display: block;
   width: 100%;
   height: 70px;
-  background: url(//haniwa-bonsai.com/wp-content/themes/haniwa/css/../images/export/english/header_logo.svg)
+  background: url(../img/header_logo.svg)
     center center no-repeat;
   background-size: contain;
   overflow: hidden;
@@ -2567,7 +2567,7 @@ h1 a {
     display: block;
     width: 100%;
     height: 50px;
-    background: url(//haniwa-bonsai.com/wp-content/themes/haniwa/css/../images/export/english/sp_header_logo.svg)
+    background: url(../img/sp_header_logo.svg)
       center center no-repeat;
     background-size: contain;
   }
@@ -2914,7 +2914,7 @@ footer a {
   display: block;
   width: 100%;
   height: 90px;
-  background: url(//haniwa-bonsai.com/wp-content/themes/haniwa/css/../images/export/english/copy.svg)
+  background: url(../img/copy.svg)
     center center no-repeat;
   background-size: contain;
   margin: 40px auto;
@@ -8296,7 +8296,7 @@ td.ai1ec-visible-print {
   font-size: 1px;
   text-decoration: none;
   border: 0;
-  background: url(//haniwa-bonsai.com/wp-content/plugins/all-in-one-event-calendar/public/themes-ai1ec/vortex/css/../img/select2.png)
+  background: url(../img/select2.png)
     right top no-repeat;
   cursor: pointer;
   outline: 0;
@@ -8373,7 +8373,7 @@ td.ai1ec-visible-print {
   display: block;
   width: 100%;
   height: 100%;
-  background: url(//haniwa-bonsai.com/wp-content/plugins/all-in-one-event-calendar/public/themes-ai1ec/vortex/css/../img/select2.png)
+  background: url(../img/select2.png)
     no-repeat 0 1px;
 }
 .select2-search {
@@ -8409,24 +8409,24 @@ td.ai1ec-visible-print {
   -moz-box-shadow: none;
   box-shadow: none;
   background: #fff
-    url(//haniwa-bonsai.com/wp-content/plugins/all-in-one-event-calendar/public/themes-ai1ec/vortex/css/../img/select2.png)
+    url(../img/select2.png)
     no-repeat 100% -22px;
-  background: url(//haniwa-bonsai.com/wp-content/plugins/all-in-one-event-calendar/public/themes-ai1ec/vortex/css/../img/select2.png)
+  background: url(../img/select2.png)
       no-repeat 100% -22px,
     -webkit-gradient(linear, left bottom, left top, color-stop(0.85, #fff), color-stop(0.99, #eee));
-  background: url(//haniwa-bonsai.com/wp-content/plugins/all-in-one-event-calendar/public/themes-ai1ec/vortex/css/../img/select2.png)
+  background: url(../img/select2.png)
       no-repeat 100% -22px,
     -webkit-linear-gradient(center bottom, #fff 85%, #eee 99%);
-  background: url(//haniwa-bonsai.com/wp-content/plugins/all-in-one-event-calendar/public/themes-ai1ec/vortex/css/../img/select2.png)
+  background: url(../img/select2.png)
       no-repeat 100% -22px,
     -moz-linear-gradient(center bottom, #fff 85%, #eee 99%);
-  background: url(//haniwa-bonsai.com/wp-content/plugins/all-in-one-event-calendar/public/themes-ai1ec/vortex/css/../img/select2.png)
+  background: url(../img/select2.png)
       no-repeat 100% -22px,
     -o-linear-gradient(bottom, #fff 85%, #eee 99%);
-  background: url(//haniwa-bonsai.com/wp-content/plugins/all-in-one-event-calendar/public/themes-ai1ec/vortex/css/../img/select2.png)
+  background: url(../img/select2.png)
       no-repeat 100% -22px,
     -ms-linear-gradient(top, #fff 85%, #eee 99%);
-  background: url(//haniwa-bonsai.com/wp-content/plugins/all-in-one-event-calendar/public/themes-ai1ec/vortex/css/../img/select2.png)
+  background: url(../img/select2.png)
       no-repeat 100% -22px,
     linear-gradient(top, #fff 85%, #eee 99%);
 }
@@ -8435,24 +8435,24 @@ td.ai1ec-visible-print {
 }
 .select2-search input.select2-active {
   background: #fff
-    url(//haniwa-bonsai.com/wp-content/plugins/all-in-one-event-calendar/public/themes-ai1ec/vortex/css/../img/ajax-loader-small.gif)
+    url(../img/ajax-loader-small.gif)
     no-repeat 100%;
-  background: url(//haniwa-bonsai.com/wp-content/plugins/all-in-one-event-calendar/public/themes-ai1ec/vortex/css/../img/ajax-loader-small.gif)
+  background: url(../img/ajax-loader-small.gif)
       no-repeat 100%,
     -webkit-gradient(linear, left bottom, left top, color-stop(0.85, #fff), color-stop(0.99, #eee));
-  background: url(//haniwa-bonsai.com/wp-content/plugins/all-in-one-event-calendar/public/themes-ai1ec/vortex/css/../img/ajax-loader-small.gif)
+  background: url(../img/ajax-loader-small.gif)
       no-repeat 100%,
     -webkit-linear-gradient(center bottom, #fff 85%, #eee 99%);
-  background: url(//haniwa-bonsai.com/wp-content/plugins/all-in-one-event-calendar/public/themes-ai1ec/vortex/css/../img/ajax-loader-small.gif)
+  background: url(../img/ajax-loader-small.gif)
       no-repeat 100%,
     -moz-linear-gradient(center bottom, #fff 85%, #eee 99%);
-  background: url(//haniwa-bonsai.com/wp-content/plugins/all-in-one-event-calendar/public/themes-ai1ec/vortex/css/../img/ajax-loader-small.gif)
+  background: url(../img/ajax-loader-small.gif)
       no-repeat 100%,
     -o-linear-gradient(bottom, #fff 85%, #eee 99%);
-  background: url(//haniwa-bonsai.com/wp-content/plugins/all-in-one-event-calendar/public/themes-ai1ec/vortex/css/../img/ajax-loader-small.gif)
+  background: url(../img/ajax-loader-small.gif)
       no-repeat 100%,
     -ms-linear-gradient(top, #fff 85%, #eee 99%);
-  background: url(//haniwa-bonsai.com/wp-content/plugins/all-in-one-event-calendar/public/themes-ai1ec/vortex/css/../img/ajax-loader-small.gif)
+  background: url(../img/ajax-loader-small.gif)
       no-repeat 100%,
     linear-gradient(top, #fff 85%, #eee 99%);
 }
@@ -8627,7 +8627,7 @@ td.ai1ec-visible-print {
 }
 .select2-more-results.select2-active {
   background: #f4f4f4
-    url(//haniwa-bonsai.com/wp-content/plugins/all-in-one-event-calendar/public/themes-ai1ec/vortex/css/../img/ajax-loader-small.gif)
+    url(../img/ajax-loader-small.gif)
     no-repeat 100%;
 }
 .select2-more-results {
@@ -8711,7 +8711,7 @@ td.ai1ec-visible-print {
   .select2-search-field
   input.select2-active {
   background: #fff
-    url(//haniwa-bonsai.com/wp-content/plugins/all-in-one-event-calendar/public/themes-ai1ec/vortex/css/../img/ajax-loader-small.gif)
+    url(../img/ajax-loader-small.gif)
     no-repeat 100% !important;
 }
 .select2-default {
@@ -8802,7 +8802,7 @@ td.ai1ec-visible-print {
   top: 4px;
   font-size: 1px;
   outline: none;
-  background: url(//haniwa-bonsai.com/wp-content/plugins/all-in-one-event-calendar/public/themes-ai1ec/vortex/css/../img/select2.png)
+  background: url(../img/select2.png)
     right top no-repeat;
 }
 .select2-container-multi .select2-search-choice-close {
@@ -8854,7 +8854,7 @@ td.ai1ec-visible-print {
   .select2-search-choice-close,
   .select2-container .select2-choice abbr,
   .select2-container .select2-choice div b {
-    background-image: url(//haniwa-bonsai.com/wp-content/plugins/all-in-one-event-calendar/public/themes-ai1ec/vortex/css/../img/select2x2.png) !important;
+    background-image: url(../img/select2x2.png) !important;
     background-repeat: no-repeat !important;
     background-size: 60px 40px !important;
   }
@@ -10718,7 +10718,7 @@ span.ai1ec-hidden-xs {
 .timely a.select2-search-choice-close {
   -webkit-transition: none;
   transition: none;
-  background: url(//haniwa-bonsai.com/wp-content/plugins/all-in-one-event-calendar/public/themes-ai1ec/vortex/css/../img/select2.png)
+  background: url(../img/select2.png)
     right top no-repeat;
   left: 5px;
   top: 3px;
@@ -10993,7 +10993,7 @@ input.ai1ec-timepicker[readonly] {
   left: 0;
   width: 100%;
   height: 100%;
-  background: url(//haniwa-bonsai.com/wp-content/plugins/all-in-one-event-calendar/public/themes-ai1ec/vortex/css/../img/ajax-loader.gif)
+  background: url(../img/ajax-loader.gif)
     no-repeat center center;
   background-color: rgba(255, 255, 255, 0.5);
   display: none;
@@ -13044,7 +13044,7 @@ table.ai1ec-oneday-view-original.tablescroll_body tr:first-child td {
 }
 #sb_instagram .sb_instagram_header .sbi_header_img_hover i {
   overflow: hidden;
-  background: url(//haniwa-bonsai.com/wp-content/plugins/instagram-feed/css/../img/small-logo.png)
+  background: url(../img/small-logo.png)
     no-repeat 0 0;
 }
 #sb_instagram .sb_instagram_header .sbi_header_img_hover {
