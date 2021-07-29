@@ -186,12 +186,6 @@ textarea {
        url(../font/mplus-2c-regular.woff) format("woff"),
        url(../font/mplus-2c-regular.ttf) format("truetype");
 }
-@font-face {
-  font-family: "Hannari_font";
-  src: url(//haniwa-bonsai.com/wp-content/themes/haniwa/font/hannari.eot?)
-    format("woff");
-  font-display: swap;
-}
 @charset "UTF-8";
 body {
   overflow-x: hidden;
