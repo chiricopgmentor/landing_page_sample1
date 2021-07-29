@@ -19,12 +19,6 @@ if (!isMobile) {
     e.preventDefault();
   });
 }
-$(function () {
-  $(".open").on("click", function () {
-    $(this).toggleClass("active", 300);
-    $(".language_box li").toggleClass("active", 300);
-  });
-});
 var touch =
   "ontouchstart" in document.documentElement ||
   navigator.maxTouchPoints > 0 ||
@@ -43,19 +37,3 @@ if (touch) {
     }
   } catch (ex) {}
 }
-$(function () {
-  var timer = false;
-  var prewidth = $(window).width();
-  $(window).resize(function () {
-    if (timer !== false) {
-      clearTimeout(timer);
-    }
-    timer = setTimeout(function () {
-      var nowWidth = $(window).width();
-      if (prewidth !== nowWidth) {
-        $(".language_box li").removeClass("active");
-      }
-      prewidth = nowWidth;
-    }, 200);
-  });
-});
