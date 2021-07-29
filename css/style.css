@@ -159,70 +159,32 @@ textarea {
   color: #9f9fa0;
 }
 @font-face {
-  font-display: swap;
-  font-family: "m+c2_Thin";
-  src: url(//haniwa-bonsai.com/wp-content/themes/haniwa/font/mplus-2c-thin.eot);
-  src: url(//haniwa-bonsai.com/wp-content/themes/haniwa/font/mplus-2c-thin.eot?#iefix)
-      format("embedded-opentype"),
-    url(//haniwa-bonsai.com/wp-content/themes/haniwa/font/mplus-2c-thin.woff)
-      format("woff"),
-    url(//haniwa-bonsai.com/wp-content/themes/haniwa/font/mplus-2c-thin.ttf)
-      format("truetype");
+  font-family: "mplus-2c-bold";
+  src: url(../font/mplus-2c-bold.eot);
+  src: url(../font/mplus-2c-bold.eot?#iefix) format("embedded-opentype"),
+       url(../font/mplus-2c-bold.woff) format("woff"),
+       url(../font/mplus-2c-bold.ttf) format("truetype");
 }
 @font-face {
-  font-display: swap;
-  font-family: "m+c2_Light";
-  src: url(//haniwa-bonsai.com/wp-content/themes/haniwa/font/mplus-2c-light.eot);
-  src: url(//haniwa-bonsai.com/wp-content/themes/haniwa/font/mplus-2c-light.eot?#iefix)
-      format("embedded-opentype"),
-    url(//haniwa-bonsai.com/wp-content/themes/haniwa/font/mplus-2c-light.woff)
-      format("woff"),
-    url(//haniwa-bonsai.com/wp-content/themes/haniwa/font/mplus-2c-light.ttf)
-      format("truetype");
+  font-family: "mplus-2c-light";
+  src: url(../font/mplus-2c-light.eot);
+  src: url(../font/mplus-2c-light.eot?#iefix) format("embedded-opentype"),
+       url(../font/mplus-2c-light.woff) format("woff"),
+       url(../font/mplus-2c-light.ttf) format("truetype");
 }
 @font-face {
-  font-display: swap;
-  font-family: "m+c2_Regular";
-  src: url(//haniwa-bonsai.com/wp-content/themes/haniwa/font/mplus-2c-regular.eot);
-  src: url(//haniwa-bonsai.com/wp-content/themes/haniwa/font/mplus-2c-regular.eot?#iefix)
-      format("embedded-opentype"),
-    url(//haniwa-bonsai.com/wp-content/themes/haniwa/font/mplus-2c-regular.woff)
-      format("woff"),
-    url(//haniwa-bonsai.com/wp-content/themes/haniwa/font/mplus-2c-regular.ttf)
-      format("truetype");
+  font-family: "mplus-2c-medium";
+  src: url(../font/mplus-2c-medium.eot);
+  src: url(../font/mplus-2c-medium.eot?#iefix) format("embedded-opentype"),
+       url(../font/mplus-2c-medium.woff) format("woff"),
+       url(../font/mplus-2c-medium.ttf) format("truetype");
 }
 @font-face {
-  font-display: swap;
-  font-family: "m+c2_Medium";
-  src: url(//haniwa-bonsai.com/wp-content/themes/haniwa/font/mplus-2c-medium.eot);
-  src: url(//haniwa-bonsai.com/wp-content/themes/haniwa/font/mplus-2c-medium.eot?#iefix)
-      format("embedded-opentype"),
-    url(//haniwa-bonsai.com/wp-content/themes/haniwa/font/mplus-2c-medium.woff)
-      format("woff"),
-    url(//haniwa-bonsai.com/wp-content/themes/haniwa/font/mplus-2c-medium.ttf)
-      format("truetype");
-}
-@font-face {
-  font-display: swap;
-  font-family: "m+c2_Bold";
-  src: url(//haniwa-bonsai.com/wp-content/themes/haniwa/font/mplus-2c-bold.eot);
-  src: url(//haniwa-bonsai.com/wp-content/themes/haniwa/font/mplus-2c-bold.eot?#iefix)
-      format("embedded-opentype"),
-    url(//haniwa-bonsai.com/wp-content/themes/haniwa/font/mplus-2c-bold.woff)
-      format("woff"),
-    url(//haniwa-bonsai.com/wp-content/themes/haniwa/font/mplus-2c-bold.ttf)
-      format("truetype");
-}
-@font-face {
-  font-display: swap;
-  font-family: "m+c2_Heavy";
-  src: url(//haniwa-bonsai.com/wp-content/themes/haniwa/font/mplus-2c-heavy.eot);
-  src: url(//haniwa-bonsai.com/wp-content/themes/haniwa/font/mplus-2c-heavy.eot?#iefix)
-      format("embedded-opentype"),
-    url(//haniwa-bonsai.com/wp-content/themes/haniwa/font/mplus-2c-heavy.woff)
-      format("woff"),
-    url(//haniwa-bonsai.com/wp-content/themes/haniwa/font/mplus-2c-heavy.ttf)
-      format("truetype");
+  font-family: "mplus-2c-regular";
+  src: url(../font/mplus-2c-regular.eot);
+  src: url(../font/mplus-2c-regular.eot?#iefix) format("embedded-opentype"),
+       url(../font/mplus-2c-regular.woff) format("woff"),
+       url(../font/mplus-2c-regular.ttf) format("truetype");
 }
 @font-face {
   font-family: "Hannari_font";
@@ -289,7 +251,7 @@ header {
   text-align: center;
   display: block;
   background-color: #595757;
-  font: 22px/100px "m+c2_Bold", "ヒラギノ角ゴ Pro W3",
+  font: 22px/100px "mplus-2c-bold", "ヒラギノ角ゴ Pro W3",
     "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック",
     "MS PGothic", "sans-serif";
   color: #fff;
@@ -383,7 +345,7 @@ header {
   .header_box .contact {
     width: calc(100% - 270px);
     max-width: 100px;
-    font: 22px/80px "m+c2_Bold", "ヒラギノ角ゴ Pro W3",
+    font: 22px/80px "mplus-2c-bold", "ヒラギノ角ゴ Pro W3",
       "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック",
       "MS PGothic", "sans-serif";
   }
@@ -481,7 +443,7 @@ header {
     text-align: center;
     display: block;
     background-color: #595757;
-    font: 22px/70px "m+c2_Bold", "ヒラギノ角ゴ Pro W3",
+    font: 22px/70px "mplus-2c-bold", "ヒラギノ角ゴ Pro W3",
       "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック",
       "MS PGothic", "sans-serif";
     color: #fff;
@@ -584,7 +546,7 @@ header {
     text-align: center;
     display: block;
     background-color: #595757;
-    font: 22px/60px "m+c2_Bold", "ヒラギノ角ゴ Pro W3",
+    font: 22px/60px "mplus-2c-bold", "ヒラギノ角ゴ Pro W3",
       "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック",
       "MS PGothic", "sans-serif";
     color: #fff;
@@ -772,7 +734,7 @@ main {
 }
 .quality .ttl_sub {
   text-align: center;
-  font: 36px/1em "m+c2_Regular", "ヒラギノ角ゴ Pro W3",
+  font: 36px/1em "mplus-2c-regular", "ヒラギノ角ゴ Pro W3",
     "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック",
     "MS PGothic", "sans-serif";
   margin: 0 auto 190px;
@@ -810,7 +772,7 @@ main {
     "Hiragino Mincho Pro", "serif";
 }
 .quality_box dd {
-  font: 18px/2.5em "m+c2_Regular", "ヒラギノ角ゴ Pro W3",
+  font: 18px/2.5em "mplus-2c-regular", "ヒラギノ角ゴ Pro W3",
     "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック",
     "MS PGothic", "sans-serif";
 }
@@ -980,7 +942,7 @@ main {
   }
   .quality .ttl_sub {
     text-align: center;
-    font: 36px/1em "m+c2_Regular", "ヒラギノ角ゴ Pro W3",
+    font: 36px/1em "mplus-2c-regular", "ヒラギノ角ゴ Pro W3",
       "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック",
       "MS PGothic", "sans-serif";
     margin: 0 auto 190px;
@@ -1018,7 +980,7 @@ main {
       "Hiragino Mincho Pro", "serif";
   }
   .quality_box dd {
-    font: 18px/2.5em "m+c2_Regular", "ヒラギノ角ゴ Pro W3",
+    font: 18px/2.5em "mplus-2c-regular", "ヒラギノ角ゴ Pro W3",
       "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック",
       "MS PGothic", "sans-serif";
   }
@@ -1156,7 +1118,7 @@ main {
   }
   .quality .ttl_sub {
     text-align: center;
-    font: 26px/1em "m+c2_Regular", "ヒラギノ角ゴ Pro W3",
+    font: 26px/1em "mplus-2c-regular", "ヒラギノ角ゴ Pro W3",
       "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック",
       "MS PGothic", "sans-serif";
     margin: 0 auto 190px;
@@ -1193,7 +1155,7 @@ main {
       "Hiragino Mincho Pro", "serif";
   }
   .quality_box dd {
-    font: 18px/2.3em "m+c2_Regular", "ヒラギノ角ゴ Pro W3",
+    font: 18px/2.3em "mplus-2c-regular", "ヒラギノ角ゴ Pro W3",
       "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック",
       "MS PGothic", "sans-serif";
   }
@@ -1328,7 +1290,7 @@ main {
 @media (max-width: 480px) {
   .quality .ttl_sub {
     text-align: center;
-    font: 22px/1em "m+c2_Regular", "ヒラギノ角ゴ Pro W3",
+    font: 22px/1em "mplus-2c-regular", "ヒラギノ角ゴ Pro W3",
       "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック",
       "MS PGothic", "sans-serif";
     margin: 0 auto 130px;
@@ -1350,7 +1312,7 @@ main {
       "Hiragino Mincho Pro", "serif";
   }
   .quality_box dd {
-    font: 16px/2.4em "m+c2_Regular", "ヒラギノ角ゴ Pro W3",
+    font: 16px/2.4em "mplus-2c-regular", "ヒラギノ角ゴ Pro W3",
       "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック",
       "MS PGothic", "sans-serif";
   }
@@ -1852,7 +1814,7 @@ main {
 .company .txt td {
   vertical-align: top;
   padding: 15px;
-  font: 16px/1.5em "m+c2_Light", "ヒラギノ角ゴ Pro W3",
+  font: 16px/1.5em "mplus-2c-light", "ヒラギノ角ゴ Pro W3",
     "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック",
     "MS PGothic", "sans-serif";
   border-bottom: 1px solid #ccc;
@@ -1921,7 +1883,7 @@ main {
   .company .txt td {
     vertical-align: top;
     padding: 15px;
-    font: 16px/1.5em "m+c2_Light", "ヒラギノ角ゴ Pro W3",
+    font: 16px/1.5em "mplus-2c-light", "ヒラギノ角ゴ Pro W3",
       "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック",
       "MS PGothic", "sans-serif";
     border-bottom: 1px solid #ccc;
@@ -1982,7 +1944,7 @@ main {
   .company .txt td {
     vertical-align: top;
     padding: 15px 0;
-    font: 16px/1.5em "m+c2_Light", "ヒラギノ角ゴ Pro W3",
+    font: 16px/1.5em "mplus-2c-light", "ヒラギノ角ゴ Pro W3",
       "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック",
       "MS PGothic", "sans-serif";
     border-bottom: 1px solid #ccc;
@@ -2046,7 +2008,7 @@ main {
   .company .txt td {
     vertical-align: top;
     padding: 15px 0;
-    font: 16px/1.8em "m+c2_Light", "ヒラギノ角ゴ Pro W3",
+    font: 16px/1.8em "mplus-2c-light", "ヒラギノ角ゴ Pro W3",
       "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック",
       "MS PGothic", "sans-serif";
     border-bottom: 1px solid #ccc;
@@ -2206,7 +2168,7 @@ footer div {
   padding: 70px 40px 80px;
   background-color: #595757;
   text-align: center;
-  font: 30px/1.9em "m+c2_Regular", "ヒラギノ角ゴ Pro W3",
+  font: 30px/1.9em "mplus-2c-regular", "ヒラギノ角ゴ Pro W3",
     "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック",
     "MS PGothic", "sans-serif";
   color: #fff;
@@ -2219,7 +2181,7 @@ footer a {
   margin: 50px auto 0;
   background-color: #fff;
   border-radius: 50px;
-  font: 30px/80px "m+c2_Bold", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro",
+  font: 30px/80px "mplus-2c-bold", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro",
     "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", "sans-serif";
 }
 footer a span {
@@ -2240,7 +2202,7 @@ footer a span:before {
 }
 @media (max-width: 1024px) {
   footer div {
-    font: 26px/1.9em "m+c2_Regular", "ヒラギノ角ゴ Pro W3",
+    font: 26px/1.9em "mplus-2c-regular", "ヒラギノ角ゴ Pro W3",
       "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック",
       "MS PGothic", "sans-serif";
     color: #fff;
@@ -2249,7 +2211,7 @@ footer a span:before {
 @media (max-width: 768px) {
   footer div {
     padding: 70px 20px 80px;
-    font: 22px/1.9em "m+c2_Regular", "ヒラギノ角ゴ Pro W3",
+    font: 22px/1.9em "mplus-2c-regular", "ヒラギノ角ゴ Pro W3",
       "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック",
       "MS PGothic", "sans-serif";
   }
@@ -2259,7 +2221,7 @@ footer a span:before {
     margin: 50px auto 0;
     background-color: #fff;
     border-radius: 50px;
-    font: 25px/65px "m+c2_Bold", "ヒラギノ角ゴ Pro W3",
+    font: 25px/65px "mplus-2c-bold", "ヒラギノ角ゴ Pro W3",
       "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック",
       "MS PGothic", "sans-serif";
   }
@@ -2278,7 +2240,7 @@ footer a span:before {
     padding: 55px 20px 65px;
     background-color: #595757;
     text-align: left;
-    font: 17px/1.9em "m+c2_Regular", "ヒラギノ角ゴ Pro W3",
+    font: 17px/1.9em "mplus-2c-regular", "ヒラギノ角ゴ Pro W3",
       "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック",
       "MS PGothic", "sans-serif";
     color: #fff;
@@ -2292,7 +2254,7 @@ footer a span:before {
     margin: 40px auto 0;
     background-color: #fff;
     border-radius: 50px;
-    font: 20px/60px "m+c2_Bold", "ヒラギノ角ゴ Pro W3",
+    font: 20px/60px "mplus-2c-bold", "ヒラギノ角ゴ Pro W3",
       "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック",
       "MS PGothic", "sans-serif";
   }
@@ -2524,7 +2486,7 @@ h1 a {
     display: block;
     margin: 0 auto 25px;
     padding-left: 52px;
-    font: 25px/100% "m+c2_Medium", "ヒラギノ角ゴ Pro W3",
+    font: 25px/100% "mplus-2c-medium", "ヒラギノ角ゴ Pro W3",
       "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック",
       "MS PGothic", "sans-serif";
     color: #8fc31f;
@@ -2554,7 +2516,7 @@ h1 a {
     display: block;
     margin: 0 auto 25px;
     padding-left: 30px;
-    font: 25px/100% "m+c2_Medium", "ヒラギノ角ゴ Pro W3",
+    font: 25px/100% "mplus-2c-medium", "ヒラギノ角ゴ Pro W3",
       "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック",
       "MS PGothic", "sans-serif";
     color: #8fc31f;
@@ -2585,7 +2547,7 @@ h1 a {
     display: block;
     margin: 0 auto 35px;
     padding-left: 45px;
-    font: 21px/1em "m+c2_Medium", "ヒラギノ角ゴ Pro W3",
+    font: 21px/1em "mplus-2c-medium", "ヒラギノ角ゴ Pro W3",
       "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック",
       "MS PGothic", "sans-serif" !important;
     color: #8fc31f;
