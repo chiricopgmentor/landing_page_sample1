@@ -399,7 +399,6 @@ main {
   width: 100%;
   height: 760px;
   position: relative;
-  /* background: url(../img/mv.jpg) top center no-repeat; */
   background-size: cover;
 }
 .mv span {
@@ -448,11 +447,9 @@ main {
   }
   .mv {
     width: 100%;
-    height: 0;
-    padding-top: 107%;
+    height: 450px;
     position: relative;
-    background: url(../img/sp_mv.jpg) top center no-repeat;
-    background-size: contain;
+    background-size: cover;
   }
   .mv span {
     display: block;
@@ -3383,7 +3380,6 @@ p.has-text-color a {
   font-size: 42px;
 }
 
-
 /* -------------------------------- */
 /* module
 /* -------------------------------- */
@@ -3402,7 +3398,23 @@ p.has-text-color a {
   height: 760px;
   width: 100%;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
+}
+@media (max-width: 1024px) {
+  .bl_bgiCarousel {
+    height: 650px;
+  }
+  .bl_bgiCarousel_img {
+    height: 650px;
+  }
+}
+@media (max-width: 768px) {
+  .bl_bgiCarousel {
+    height: 450px;
+  }
+  .bl_bgiCarousel_img {
+    height: 450px;
+  }
 }
 .bl_3colCardUnit_wrapper {
   width: 100%;
@@ -3462,17 +3474,17 @@ p.has-text-color a {
   max-width: 1110px;
   margin: 0 auto 200px;
 }
-.el_EmbeddedYoutube{
-  position:relative;
-  width:100%;
-  padding-top:56.25%;
+.el_EmbeddedYoutube {
+  position: relative;
+  width: 100%;
+  padding-top: 56.25%;
 }
-.el_EmbeddedYoutube iframe{
-  position:absolute;
-  top:0;
-  right:0;
-  width:100%;
-  height:100%;
+.el_EmbeddedYoutube iframe {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
 }
 @media (max-width: 768px) {
   .el_EmbeddedYoutube_wrapper {
