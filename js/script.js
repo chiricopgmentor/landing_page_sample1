@@ -1,3 +1,5 @@
+const $bgiCarousel = $(".js_bgiCarousel");
+
 $(function () {
   var topBtn = $("#page_top");
   $(window).scroll(function () {
@@ -37,3 +39,9 @@ if (touch) {
     }
   } catch (ex) {}
 }
+
+// 背景カルーセル
+$bgiCarousel.slick({
+  autoplay: true,
+  arrows: false,
+});
