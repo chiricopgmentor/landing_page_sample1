@@ -3408,6 +3408,8 @@ p.has-text-color a {
   width: 100%;
   max-width: 1110px;
   padding: 0 15px;
+  margin-right: auto;
+  margin-left: auto;
 }
 .bl_3colCardUnit {
   display: flex;
