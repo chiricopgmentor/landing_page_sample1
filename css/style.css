@@ -3439,3 +3439,24 @@ p.has-text-color a {
     margin: 5% 0;
   }
 }
+.el_EmbeddedYoutube_wrapper {
+  max-width: 1110px;
+  margin: 0 auto 200px;
+}
+.el_EmbeddedYoutube{
+  position:relative;
+  width:100%;
+  padding-top:56.25%;
+}
+.el_EmbeddedYoutube iframe{
+  position:absolute;
+  top:0;
+  right:0;
+  width:100%;
+  height:100%;
+}
+@media (max-width: 768px) {
+  .el_EmbeddedYoutube_wrapper {
+    margin-bottom: 150px;
+  }
+}
