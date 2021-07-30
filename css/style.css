@@ -1990,7 +1990,7 @@ h1 a {
   display: block;
   width: 100%;
   height: 70px;
-  background: url(../img/header_logo.svg) center center no-repeat;
+  background: center center no-repeat;
   background-size: contain;
   overflow: hidden;
   text-indent: 100%;
@@ -2018,7 +2018,7 @@ h1 a {
     display: block;
     width: 100%;
     height: 50px;
-    background: url(../img/sp_header_logo.svg) center center no-repeat;
+    background: center center no-repeat;
     background-size: contain;
   }
 }
