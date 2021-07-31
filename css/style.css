@@ -262,7 +262,7 @@ header {
   height: 28px;
   left: 0;
   top: 36px;
-  background: url(../img/header_mail.svg) center center no-repeat;
+  background: url(../img/header_mail.png) center center no-repeat;
 }
 .header_box .contact:hover {
   opacity: 0.5;
@@ -1139,7 +1139,7 @@ main {
 .flow {
   padding: 240px 40px 0;
   margin-bottom: 250px;
-  background: url(../img/flow_bg.svg) 50% 60% no-repeat;
+  background: 50% 60% no-repeat;
   position: relative;
 }
 .flow .top_plane {
@@ -1199,7 +1199,7 @@ main {
   content: "";
   width: 43px;
   height: 67px;
-  background: url(../img/flow_arrow.svg) center center no-repeat;
+  background: url(../img/flow_arrow.png) center center no-repeat;
   top: -83px;
   left: 50%;
   -webkit-transform: translate(-50%, 0%);
@@ -1216,7 +1216,7 @@ main {
   content: "";
   width: 40px;
   height: 42px;
-  background: url(../img/flow_icon-01.svg) center center no-repeat;
+  background: url(../img/flow_icon-01.png) center center no-repeat;
   left: 0;
   top: -7px;
 }
@@ -1225,7 +1225,7 @@ main {
   content: "";
   width: 40px;
   height: 42px;
-  background: url(../img/flow_icon-02.svg) center center no-repeat;
+  background: url(../img/flow_icon-02.png) center center no-repeat;
   left: 0;
   top: -7px;
 }
@@ -1234,7 +1234,7 @@ main {
   content: "";
   width: 40px;
   height: 42px;
-  background: url(../img/flow_icon-03.svg) center center no-repeat;
+  background: url(../img/flow_icon-03.png) center center no-repeat;
   left: 0;
   top: -7px;
 }
@@ -1243,7 +1243,7 @@ main {
   content: "";
   width: 40px;
   height: 42px;
-  background: url(../img/flow_icon-04.svg) center center no-repeat;
+  background: url(../img/flow_icon-04.png) center center no-repeat;
   left: 0;
   top: -7px;
 }
@@ -1252,7 +1252,7 @@ main {
   content: "";
   width: 40px;
   height: 42px;
-  background: url(../img/flow_icon-05.svg) center center no-repeat;
+  background: url(../img/flow_icon-05.png) center center no-repeat;
   left: 0;
   top: -7px;
 }
@@ -1260,7 +1260,7 @@ main {
   .flow {
     padding: 40px 40px 0;
     margin-bottom: 150px;
-    background: url(../img/flow_bg.svg) 50% 60% no-repeat;
+    background: 50% 60% no-repeat;
     position: relative;
   }
   .flow .btm_plane,
@@ -1288,7 +1288,7 @@ main {
     content: "";
     width: 43px;
     height: 67px;
-    background: url(../img/flow_arrow.svg) center center no-repeat;
+    background: url(../img/flow_arrow.png) center center no-repeat;
     top: -80px;
     left: 50%;
     -webkit-transform: translate(-50%, 0%);
@@ -1299,7 +1299,7 @@ main {
   .flow {
     padding: 40px 20px 0;
     margin-bottom: 150px;
-    background: url(../img/flow_bg.svg) 50% 60% no-repeat;
+    background: 50% 60% no-repeat;
     position: relative;
   }
   .flow .btm_plane,
@@ -1338,7 +1338,7 @@ main {
     content: "";
     width: 43px;
     height: 67px;
-    background: url(../img/flow_arrow.svg) center center no-repeat;
+    background: url(../img/flow_arrow.png) center center no-repeat;
     top: inherit;
     top: -80px;
     left: 50%;
@@ -1350,7 +1350,7 @@ main {
     content: "";
     width: 40px;
     height: 42px;
-    background: url(../img/flow_icon-01.svg) center center no-repeat;
+    background: url(../img/flow_icon-01.png) center center no-repeat;
     left: -20px;
     top: -8px;
   }
@@ -1359,7 +1359,7 @@ main {
     content: "";
     width: 40px;
     height: 42px;
-    background: url(../img/flow_icon-02.svg) center center no-repeat;
+    background: url(../img/flow_icon-02.png) center center no-repeat;
     left: -20px;
     top: -7px;
   }
@@ -1368,7 +1368,7 @@ main {
     content: "";
     width: 40px;
     height: 42px;
-    background: url(../img/flow_icon-03.svg) center center no-repeat;
+    background: url(../img/flow_icon-03.png) center center no-repeat;
     left: -20px;
     top: -7px;
   }
@@ -1377,7 +1377,7 @@ main {
     content: "";
     width: 40px;
     height: 42px;
-    background: url(../img/flow_icon-04.svg) center center no-repeat;
+    background: url(../img/flow_icon-04.png) center center no-repeat;
     left: -20px;
     top: -7px;
   }
@@ -1386,7 +1386,7 @@ main {
     content: "";
     width: 40px;
     height: 42px;
-    background: url(../img/flow_icon-05.svg) center center no-repeat;
+    background: url(../img/flow_icon-05.png) center center no-repeat;
     left: -20px;
     top: -7px;
   }
@@ -1395,7 +1395,7 @@ main {
   .flow {
     padding: 40px 20px 0;
     margin-bottom: 150px;
-    background: url(../img/flow_bg.svg) center 10% no-repeat;
+    background: center 10% no-repeat;
     background-size: 110%;
     position: relative;
   }
@@ -1417,7 +1417,7 @@ main {
     content: "";
     width: 35px;
     height: 67px;
-    background: url(../img/flow_arrow.svg) center center no-repeat;
+    background: url(../img/flow_arrow.png) center center no-repeat;
     background-size: contain;
     top: -80px;
     left: 50%;
@@ -1429,7 +1429,7 @@ main {
     content: "";
     width: 35px;
     height: 40px;
-    background: url(../img/flow_icon-01.svg) center center no-repeat;
+    background: url(../img/flow_icon-01.png) center center no-repeat;
     background-size: contain;
     left: 0;
     top: -10px;
@@ -1439,7 +1439,7 @@ main {
     content: "";
     width: 35px;
     height: 40px;
-    background: url(../img/flow_icon-02.svg) center center no-repeat;
+    background: url(../img/flow_icon-02.png) center center no-repeat;
     background-size: contain;
     left: 0;
     top: -9px;
@@ -1449,7 +1449,7 @@ main {
     content: "";
     width: 35px;
     height: 37px;
-    background: url(../img/flow_icon-03.svg) center center no-repeat;
+    background: url(../img/flow_icon-03.png) center center no-repeat;
     background-size: contain;
     left: 0;
     top: -8px;
@@ -1459,7 +1459,7 @@ main {
     content: "";
     width: 35px;
     height: 37px;
-    background: url(../img/flow_icon-04.svg) center center no-repeat;
+    background: url(../img/flow_icon-04.png) center center no-repeat;
     background-size: contain;
     left: 0;
     top: -7px;
@@ -1469,7 +1469,7 @@ main {
     content: "";
     width: 35px;
     height: 37px;
-    background: url(../img/flow_icon-05.svg) center center no-repeat;
+    background: url(../img/flow_icon-05.png) center center no-repeat;
     background-size: contain;
     left: 0;
     top: -7px;
@@ -1884,7 +1884,7 @@ footer a span:before {
   display: block;
   width: 50px;
   height: 38px;
-  background: url(../img/footer_mail.svg) center center no-repeat;
+  background: center center no-repeat;
   left: 0;
   top: 20px;
 }
