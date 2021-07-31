@@ -212,7 +212,7 @@ header {
 }
 .home {
   display: block;
-  background: url(../img/home.svg) center center no-repeat;
+  background: center center no-repeat;
   width: 240px;
   height: 42px;
   margin: 7px 20px 0 40px;
@@ -475,7 +475,7 @@ main {
   width: 830px;
   height: 131px;
   margin: 0 auto 60px;
-  background: url(../img/quality_ttl.svg) center top no-repeat;
+  background: center top no-repeat;
   overflow: hidden;
   text-indent: 100%;
   white-space: nowrap;
@@ -677,7 +677,7 @@ main {
     height: 0;
     padding-top: 13%;
     margin: 0 auto 50px;
-    background: url(../img/quality_ttl.svg) center top no-repeat;
+    background: center top no-repeat;
     background-size: contain;
     overflow: hidden;
     text-indent: 100%;
@@ -2364,7 +2364,7 @@ footer a {
   display: block;
   width: 100%;
   height: 90px;
-  background: url(../img/copy.svg) center center no-repeat;
+  background: center center no-repeat;
   background-size: contain;
   margin: 40px auto;
   padding: 0 40px;
