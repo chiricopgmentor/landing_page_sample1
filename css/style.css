@@ -3491,3 +3491,9 @@ p.has-text-color a {
     margin-bottom: 150px;
   }
 }
+
+.bl_contactForm input[type="radio"] {
+  appearance: radio;
+  width: 20px;
+  height: 20px;
+}
