@@ -2009,7 +2009,7 @@ footer a span:before {
   -webkit-justify-content: center;
   justify-content: center;
   align-items: flex-start;
-  margin-bottom: 150px;
+  margin-bottom: 50px;
 }
 .contact_box input[type="text"],
 .contact_box input[type="email"],
@@ -2051,6 +2051,8 @@ input[type="checkbox"] {
   margin-right: 20px;
   position: relative;
   padding: 0 0 0 25px;
+  font: 100%/100% "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ",
+  Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
   color: #333;
 }
 .mwform-radio-field {
@@ -3812,10 +3814,4 @@ p.has-text-color a {
   .el_EmbeddedYoutube_wrapper {
     margin-bottom: 150px;
   }
-}
-
-.bl_contactForm input[type="radio"] {
-  appearance: radio;
-  width: 20px;
-  height: 20px;
 }
