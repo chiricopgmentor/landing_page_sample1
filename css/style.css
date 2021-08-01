@@ -243,7 +243,7 @@ header {
   max-width: 380px;
   text-align: center;
   display: block;
-  background-color: #595757;
+  background-color: #4067ff;
   font: 22px/100px "mplus-2c-bold", "ヒラギノ角ゴ Pro W3",
     "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック",
     "MS PGothic", "sans-serif";
@@ -338,7 +338,7 @@ header {
     max-width: 85px;
     text-align: center;
     display: block;
-    background-color: #595757;
+    background-color: #4067ff;
     font: 22px/70px "mplus-2c-bold", "ヒラギノ角ゴ Pro W3",
       "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック",
       "MS PGothic", "sans-serif";
@@ -368,7 +368,7 @@ header {
     width: 60px;
     text-align: center;
     display: block;
-    background-color: #595757;
+    background-color: #4067ff;
     font: 22px/60px "mplus-2c-bold", "ヒラギノ角ゴ Pro W3",
       "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック",
       "MS PGothic", "sans-serif";
@@ -3739,6 +3739,16 @@ p.has-text-color a {
   .bl_bgiCarousel_img {
     height: 450px;
   }
+}
+.el_inPageLink {
+  cursor: pointer;
+}
+.el_anchor {
+  margin: 0;
+  padding: 0;
+  padding-top: 130px;
+  margin-top: -130px;
+  background: none;
 }
 .bl_3colCardUnit_wrapper {
   width: 100%;

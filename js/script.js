@@ -45,3 +45,22 @@ $bgiCarousel.slick({
   autoplay: true,
   arrows: false,
 });
+
+$(function () {
+  const scroll_time = 650; //スクロールにかかる時間
+  let $html_body = $("html,body");
+  let $page_link = $('a[href^="#"]');
+  //ページ内リンクがクリックされた時
+  $page_link.click(function () {
+    let $target = $($(this).attr("href"));
+    let target_offset_top = $target.offset().top;
+    //スムーズスクロール
+    $html_body.animate(
+      {
+        scrollTop: target_offset_top,
+      },
+      scroll_time,
+      "swing"
+    );
+  });
+});
