@@ -1148,7 +1148,7 @@ main {
   height: 469px;
   top: -250px;
   left: 0;
-  background: url(../img/flow_top_plane.svg) top right;
+  background: top right;
   -webkit-transform: translate(-50%, 0%);
   transform: translate(-50%, 0%);
   z-index: 1;
@@ -1159,7 +1159,7 @@ main {
   height: 469px;
   right: -2000px;
   bottom: 200px;
-  background: url(../img/flow_btm_plane.svg) top right;
+  background: top right;
   display: block;
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
