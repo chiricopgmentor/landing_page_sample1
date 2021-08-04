@@ -554,7 +554,8 @@ main {
   height: 116px;
 }
 .quality01 h3 {
-  background: url(../img/quality_h3-01.svg) center top no-repeat;
+  background: center top no-repeat;
+  background-size: contain;
   margin: -65px 0 50px;
 }
 .quality01 .txt {
@@ -584,7 +585,8 @@ main {
   padding: 0 110px 40px 0;
 }
 .quality02 h3 {
-  background: url(../img/quality_h3-02.svg) center top no-repeat;
+  background: center top no-repeat;
+  background-size: contain;
   margin: -65px 0 50px;
 }
 .quality02 .txt {
@@ -611,7 +613,8 @@ main {
   transform: translate(-50%, -50%);
 }
 .quality03 h3 {
-  background: url(../img/quality_h3-03.svg) center top no-repeat;
+  background: center top no-repeat;
+  background-size: contain;
   margin: -65px 0 50px;
 }
 .quality03 .txt {
@@ -642,7 +645,8 @@ main {
     padding: 0 110px 40px 0;
   }
   .quality02 h3 {
-    background: url(../img/quality_h3-02.svg) center top no-repeat;
+    background: center top no-repeat;
+    background-size: contain;
     margin: -65px 0 50px;
   }
   .quality02 .txt {
@@ -757,7 +761,8 @@ main {
     height: 116px;
   }
   .quality01 h3 {
-    background: url(../img/quality_h3-01.svg) center top no-repeat;
+    background: center top no-repeat;
+    background-size: contain;
     margin: -65px auto 50px;
   }
   .quality01 .txt {
@@ -789,7 +794,8 @@ main {
     padding: 0;
   }
   .quality02 h3 {
-    background: url(../img/quality_h3-02.svg) center top no-repeat;
+    background: center top no-repeat;
+    background-size: contain;
     margin: -65px auto 50px;
   }
   .quality02 .txt {
@@ -819,7 +825,8 @@ main {
     transform: translate(-50%, -50%);
   }
   .quality03 h3 {
-    background: url(../img/quality_h3-03.svg) center top no-repeat;
+    background: center top no-repeat;
+    background-size: contain;
     margin: -65px auto 50px;
   }
   .quality03 .txt {
@@ -932,7 +939,7 @@ main {
     height: 100px;
   }
   .quality01 h3 {
-    background: url(../img/quality_h3-01.svg) center top no-repeat;
+    background: center top no-repeat;
     background-size: contain;
     margin: -65px auto 50px;
   }
@@ -966,7 +973,7 @@ main {
     padding: 0;
   }
   .quality02 h3 {
-    background: url(../img/quality_h3-02.svg) center top no-repeat;
+    background: center top no-repeat;
     background-size: contain;
     margin: -65px auto 50px;
   }
@@ -995,7 +1002,7 @@ main {
     transform: translate(-50%, -50%);
   }
   .quality03 h3 {
-    background: url(../img/quality_h3-03.svg) center top no-repeat;
+    background: center top no-repeat;
     background-size: contain;
     margin: -65px auto 50px;
   }
@@ -1118,7 +1125,7 @@ main {
     transform: translate(-50%, -50%);
   }
   .quality01 h3 {
-    background: url(../img/quality_h3-01.svg) center top no-repeat;
+    background: center top no-repeat;
     background-size: contain;
     margin: -50px auto 40px;
   }
@@ -1126,12 +1133,12 @@ main {
     padding: 0;
   }
   .quality02 h3 {
-    background: url(../img/quality_h3-02.svg) center top no-repeat;
+    background: center top no-repeat;
     background-size: contain;
     margin: -50px auto 40px;
   }
   .quality03 h3 {
-    background: url(../img/quality_h3-03.svg) center top no-repeat;
+    background: center top no-repeat;
     background-size: contain;
     margin: -50px auto 40px;
   }
